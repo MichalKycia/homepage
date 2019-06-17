@@ -1,38 +1,54 @@
-    .mainWtf {
-        font-size: 3rem;
-        color: goldenrod;
-        font-style: oblique;
+    html {
+        font-family: 'Oswald', sans-serif;
     }
 
-    .backgroundFirst {background:beige;
-    
+    .main {width: 100%;
+    max-width: 700px;
+margin: 32px auto;
+}
+
+    .mainWtf {
+        font-size: 2rem;
+        color: #003049;
+        font-weight: lighter;
+        text-align: center; 
+        text-shadow:#F77F00 2px 1px 1px;
+
+    }
+
+    .backgroundFirst {
+        background: #EAE2B7;
     }
 
     .whoIam {
-        font-size: 2rem;
-        color: cornflowerblue
+        font-size: 1, 5rem;
+        color: #003049;
+        text-shadow:#F77F00 2px 1px 1px;
     }
 
     .allWeek {
-        font-size: 1, 5rem;
-        color: rebeccapurple;
+        font-size: 1rem;
+        color: #003049;
+        text-shadow:#F77F00 2px 1px 1px;
     }
 
-    html {font-family: Arial, Helvetica, sans-serif
+    .font {
+        color: #003049;
     }
-
-    p {color: gray;
-    }
-
-    footer {font-display: 2px;
-    font-family: 'Courier New', Courier, monospace;
-    }
-    span {color:red;
-        font-weight: bold;
-    }
-
-
-
-
-
     
+
+    .hyperlinks {
+        color: #F77F00;
+        
+     
+
+
+    }
+
+    .uptotop {
+        color: #E13700;
+    }
+
+    .uptotop1 {
+        color: red
+    }
