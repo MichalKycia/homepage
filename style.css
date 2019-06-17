@@ -39,11 +39,17 @@ margin: 32px auto;
 
     .hyperlinks {
         color: #F77F00;
+        text-decoration-line: line-through;
+        text-decoration-color: #EAE2B7;
+    }
+
+
+    
         
      
 
 
-    }
+    
 
     .uptotop {
         color: #E13700;
