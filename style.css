@@ -1,60 +1,43 @@
-    html {
-        font-family: 'Oswald', sans-serif;
-    }
+   .diary {
+       width: 100%;
+       max-width: 700px;
+       margin: 32px auto;
+   }
 
-    .main {width: 100%;
-    max-width: 700px;
-margin: 32px auto;
-}
+   .diary__title {
+       font-size: 50px;
+       color: #003049;
+       text-shadow: #F77F00 2px 2px 2px;
+       position: absolute;
+       top: 15px;
+       left: 40%;
+       margin: 5px auto;
+   }
 
-    .mainWtf {
-        font-size: 2rem;
-        color: #003049;
-        font-weight: lighter;
-        text-align: center; 
-        text-shadow:#F77F00 2px 1px 1px;
+   .diary__look {
+       background: #EAE2B7;
+       font-family: 'Oswald', sans-serif;
+   }
 
-    }
+   .diary__look--textshadow {
+       color: #003049;
+       text-shadow: #F77F00 2px 1px 1px;
+   }
 
-    .backgroundFirst {
-        background: #EAE2B7;
-    }
+   .diary__look--fontsize {
+       font-size: 1rem;
+   }
 
-    .whoIam {
-        font-size: 1, 5rem;
-        color: #003049;
-        text-shadow:#F77F00 2px 1px 1px;
-    }
+   .diary__paragraph {
+       color: #003049;
+   }
 
-    .allWeek {
-        font-size: 1rem;
-        color: #003049;
-        text-shadow:#F77F00 2px 1px 1px;
-    }
+   .diary__links {
+       color: #F77F00;
+       text-decoration-line: line-through;
+       text-decoration-color: #EAE2B7;
+   }
 
-    .font {
-        color: #003049;
-    }
-    
-
-    .hyperlinks {
-        color: #F77F00;
-        text-decoration-line: line-through;
-        text-decoration-color: #EAE2B7;
-    }
-
-
-    
-        
-     
-
-
-    
-
-    .uptotop {
-        color: #E13700;
-    }
-
-    .uptotop1 {
-        color: red
-    }
+   .diary__footer {
+       font-size: x-small;
+   }
