@@ -1,7 +1,5 @@
 .body {
-    background: rgb(234,226,183);
-background: linear-gradient(0deg, rgba(234,226,183,0.7010154403558299) 23%, rgba(247,127,0,0.5973739837731968) 49%, rgba(0,48,73,0.5049370089832808) 95%);
-    /* background: linear-gradient(0deg, rgba(250,239,179,1) 52%, rgba(248,238,179,1) 75%, rgba(234,226,183,1) 93%);  */
+    background: #EAE2B7;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -14,22 +12,23 @@ background: linear-gradient(0deg, rgba(234,226,183,0.7010154403558299) 23%, rgba
 }
 
 .header__title {
-    font-size: 50px;
+    font-size: 64px;
     color: #003049;
-    text-shadow: #F77F00 2px 2px 2px;
+    text-shadow: #F77F00 5px 5px 5px;
     margin: 5px 0;
     display: flex;
     justify-content: center;
-    
-   
 }
 
 .header__link {
-    color: #003049;
+    color: #F77F00;
     text-decoration-line: line-through;
-    text-decoration-color: #F77F00;
-    text-decoration-skip-ink: auto;
+    text-decoration-color: #EAE2B7;
+    font-size: 16px;
+    list-style: none;
+    text-shadow: none;
 }
+
 .navigation {
     display:flex;
     list-style-type: none;
